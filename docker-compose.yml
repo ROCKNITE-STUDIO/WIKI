@@ -1,17 +1,17 @@
-# Wiki MC Vanilla — serveur web statique (nginx)
+# Wiki ROCKNITE-STUDIO — serveur web statique (nginx)
 #
 # Lancer :     docker compose up -d
 # Arrêter :    docker compose down
 # Voir les logs : docker compose logs -f
 #
-# Le wiki est servi sur http://localhost:8080
-# (l'URL publique wiki.rocknite-studio.com/mc/vanilla est gérée
-#  par le reverse proxy de ton hébergeur vers ce port.)
+# Le wiki est servi sur http://localhost:7788
+# (l'URL publique wiki.rocknite-studio.com/ est gérée
+#  par le reverse proxy hébergeur vers ce port.)
 
 services:
   wiki:
     image: nginx:alpine
-    container_name: mc-wiki-vanilla
+    container_name: rocknite-studio-wiki
     restart: unless-stopped
     ports:
       - "7788:80"
