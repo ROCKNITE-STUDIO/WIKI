@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ---
 title: Wiki du Serveur — MC Vanilla
 ---
+=======
+# Wiki du Serveur — MC Vanilla
+>>>>>>> origin/main
 
 Bienvenue ! Voici le guide complet des commandes et recettes du serveur.
 
